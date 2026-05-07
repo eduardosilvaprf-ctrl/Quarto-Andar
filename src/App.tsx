@@ -20,7 +20,8 @@ import {
   Phone,
   Mail,
   Globe,
-  Calendar
+  Calendar,
+  ShoppingBag
 } from 'lucide-react';
 import { useState, useEffect } from 'react';
 
@@ -210,6 +211,14 @@ export default function App() {
                 }`}>
                   Ver Itinerários
                 </button>
+                <a 
+                  href="https://www.sp.senai.br/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className={`px-12 py-5 rounded-full text-xs uppercase tracking-widest font-black transition-all flex items-center gap-3 border border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white`}
+                >
+                  <ShoppingBag className="w-4 h-4" /> Comprar na Shopee
+                </a>
               </div>
             </motion.div>
           </div>
@@ -422,6 +431,14 @@ export default function App() {
                 }`}>
                   Baixar Catálogo 2026
                 </button>
+                <a 
+                  href="https://www.sp.senai.br/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className={`px-16 py-6 rounded-full font-black uppercase tracking-widest text-xs transition-all flex items-center gap-3 border border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white justify-center`}
+                >
+                  <ShoppingBag className="w-4 h-4" /> Comprar na Shopee
+                </a>
               </div>
             </div>
           </div>
